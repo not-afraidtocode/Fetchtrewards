@@ -17,7 +17,7 @@ Follow these steps to set up the project:
    
    ```
    bash  
-   git clone https://github.com/<your-username>/fetch-sre-exercise.git  
+   git clone https://github.com/<your-username>/Fetchtrewards.git  
    cd fetch-sre-exercise  
    ```
 
@@ -33,9 +33,9 @@ Run the `reliable.py` with a YAML configuration file:
    
    ```
    bash 
-   python3 monitor.py path/to/config.yaml  
+   python3 reliable.py path/to/config.yaml  
    ```
-   **example: python3 monitor.py sample_config.yaml**  
+   **example: python3 reliable.py sample_config.yaml**  
    
    **Output:**
 ```
@@ -60,6 +60,6 @@ The included sample_config.yaml demonstrates:
 **Unit testing**
 
 ``` 
-python3 -m unittest test_monitor.py -v
+python3 -m unittest test_reliability.py -v
 ``` 
 ----
