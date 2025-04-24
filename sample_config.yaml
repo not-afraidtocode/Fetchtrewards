@@ -1,0 +1,18 @@
+# Sample configuration for testing endpoint monitoring
+
+- name: Healthy POST Endpoint
+  url: https://jsonplaceholder.typicode.com/posts  # Real test endpoint
+  method: POST
+  headers:
+    Content-Type: application/json
+  body: '{"title": "test", "body": "test"}'
+
+- name: Simple GET Endpoint
+  url: https://jsonplaceholder.typicode.com/todos/1  # Real test endpoint
+
+- name: Endpoint with Port (Simulated Failure)
+  url: http://example.com:8080/health  # Will fail (no server running)
+
+- name: Invalid SSL Endpoint (Simulated)
+  url: https://self-signed.badssl.com  # Known invalid SSL site
+  
