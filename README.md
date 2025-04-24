@@ -17,8 +17,8 @@ Follow these steps to set up the project:
    
    ```
    bash  
-   git clone https://github.com/<your-username>/Fetchtrewards.git  
-   cd fetch-sre-exercise  
+   git clone https://github.com/not-afraidtocode/Fetchtrewards.git  
+   cd Fetchtrewards  
    ```
 
 2. **Install dependencies**
